@@ -3,6 +3,8 @@ import { IoArrowForward } from "react-icons/io5";
 import { IoSearch } from "react-icons/io5";
 import { TfiMenuAlt } from "react-icons/tfi";
 import { VscLibrary } from "react-icons/vsc";
+
+import PlayListComponent from "../PlaylistCard";
 function SideBar() {
   return (
     <div className="bg-[#121212] p-4 text-[#b3b3b3]  m-2 rounded-xl">
@@ -41,6 +43,7 @@ function SideBar() {
             <TfiMenuAlt className="w-[16px] h-[16px] " />
           </div>
         </div>
+        <PlayListComponent />
       </div>
     </div>
   );

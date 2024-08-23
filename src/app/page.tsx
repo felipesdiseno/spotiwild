@@ -9,7 +9,6 @@ export default function Home() {
     <div>
       <div className="bg-black flex flex-row space-x-2 space-y-2">
         <div className="w-1/4">
-          <SearchBar />
           <SideBar />
         </div>
         <div className="flex-1">
