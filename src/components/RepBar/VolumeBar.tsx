@@ -25,12 +25,6 @@ function ListenNow() {
           >
             <ImPlay3 className="text-[#1db954]" />
           </div>
-          <h1
-            style={{ marginTop: "0.2px" }}
-            className="text-[#1db954] font-bold"
-          >
-            .
-          </h1>{" "}
         </div>
       )}
     </div>

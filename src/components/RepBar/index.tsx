@@ -32,7 +32,7 @@ function RepBar() {
   return (
     <div className=" fixed bottom-0 left-0 right-0 w-full flex justify-between items-center px-4 py-2 space-x-2 ">
       <ActualSong />
-      {/* controles de rep */}
+
       <div className="flex flex-row items-center space-x-4">
         <div
           onClick={toggleRandom}
@@ -66,7 +66,7 @@ function RepBar() {
           <BiRepeat className="w-5 h-5  " />
         </div>
       </div>
-      {/* opciones adicionales */}
+
       <div className="flex items-center space-x-4">
         <ListenNow />
         <div
