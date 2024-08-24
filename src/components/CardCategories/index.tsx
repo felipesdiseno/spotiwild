@@ -20,11 +20,13 @@ function Card(props: any) {
     <div
       className={`${randomColor} w-[300px] h-[170px] rounded-lg p-4 flex items-center justify-between relative overflow-hidden hover:bg-opacity-90 transition duration-300 ease-in-out cursor-pointer`}
     >
-      <h2 className="text-white text-xl font-bold z-10">{props.name}</h2>
+      <h2 className="text-white text-xl font-bold z-10 translate-y-[-15px]">
+        {props.name}
+      </h2>
       <img
         src={props.image}
         alt={props.name}
-        className="absolute right-0 bottom-0 w-24 h-24 transform rotate-12 translate-x-4 translate-y-2"
+        className="absolute right-0 bottom-0 w-24 h-24 transform rotate-12 translate-x-4 translate-y-[-6px] shadow-lg rounded-md"
       />
     </div>
   );
