@@ -5,6 +5,7 @@ import { RiArchiveStackLine } from "react-icons/ri";
 import { GoBell } from "react-icons/go";
 import { IoArrowDownCircleOutline } from "react-icons/io5";
 import { GoHome } from "react-icons/go";
+import User from "./User";
 
 function NavBar() {
   return (
@@ -28,11 +29,12 @@ function NavBar() {
         </div>
       </div>
       <div className="flex flex-row items-center space-x-2">
-        <IoArrowDownCircleOutline />
-        <h1 className="ml-4">Instalar aplicación</h1>
-        <div>
-          <GoBell />
+        <div className="flex flex-row items-center space-x-2 cursor-pointer transform hover:scale-105 hover:underline">
+          <IoArrowDownCircleOutline />
+          <h1 className="ml-4">Instalar aplicación</h1>
         </div>
+        <GoBell className="h-4 text-[#b3b3b3] transform hover:scale-105 hover:text-white" />
+        <User />
       </div>
     </div>
   );

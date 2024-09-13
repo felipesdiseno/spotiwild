@@ -54,6 +54,31 @@ const dataCategorie = [
     image:
       "https://decanaturadeestudiantes.uniandes.edu.co/sites/default/files/pictures/rag-ban-club-640x480.jpg",
   },
+  {
+    name: "Indie",
+    image:
+      "https://i.pinimg.com/564x/f4/ef/e0/f4efe0a3a8fa4f04fbfbcb014b328c3b.jpg",
+  },
+  {
+    name: "Blues",
+    image:
+      "https://i.pinimg.com/564x/3e/5d/92/3e5d921fc8b9953b63e7c3b710f3375f.jpg",
+  },
+  {
+    name: "Clásica",
+    image:
+      "https://i.pinimg.com/236x/9a/e4/d1/9ae4d14c67285629e7c5e5121e0514f2.jpg",
+  },
+  {
+    name: "Ambient",
+    image:
+      "https://i.pinimg.com/236x/9d/6e/9c/9d6e9c2a3092123df7cccac7b9790688.jpg",
+  },
+  {
+    name: "Instrumental",
+    image:
+      "https://i.pinimg.com/236x/7a/94/b0/7a94b0c52fcda81b39bb3a97c3ded246.jpg",
+  },
 ];
 
 export default dataCategorie;
