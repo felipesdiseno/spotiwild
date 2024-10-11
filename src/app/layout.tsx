@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="public\spotifyIcon.png" type="image/x-icon" />
+        <link rel="icon" href="public/spotifyIcon.png" type="image/x-icon" />
         <title>Spotywild</title>
       </head>
       <body className={inter.className}>
